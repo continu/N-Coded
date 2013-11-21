@@ -8,9 +8,9 @@
 
     $(document).ready(function(){
 
-        // On the home page, move the blog icon inside the header 
+        // On the home page, move the blog icon inside the header
         // for better relative/absolute positioning.
-
+        hljs.tabReplace = '  '; // 2 spaces
         //$("#blog-logo").prependTo("#site-head-content");
         hljs.initHighlightingOnLoad();
 
